@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DinoSaulo/curso-intermediario-cypress/issues"
   },
-  "homepage": "https://github.com/DinoSaulo/curso-intermediario-cypress#readme"
+  "homepage": "https://github.com/DinoSaulo/curso-intermediario-cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
 }
