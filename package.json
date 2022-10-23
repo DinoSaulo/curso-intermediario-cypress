@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DinoSaulo/curso-intermediario-cypress#readme",
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "faker": "^5.5.3"
   }
 }
