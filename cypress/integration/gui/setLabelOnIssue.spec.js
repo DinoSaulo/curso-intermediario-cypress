@@ -32,8 +32,8 @@ describe('Set label on issue', () => {
     it('Successfully', () => {
         cy.gui_setLabelOnIssue(label)
 
-        cy.get('.qa-labels-block').should('contain', label.name)
-        cy.get('.qa-labels-block span').should('have.attr', 'style', `background-color: ${label.color}; color: #333333;`)
+        cy.get('.qa-labels-block', { timeout: 6000 }).should('contain', label.name)
+        cy.get('.qa-labels-block span', { timeout: 6000 }).should('have.attr', 'style', `background-color: ${label.color}; color: #333333;`)
 
     })
 
