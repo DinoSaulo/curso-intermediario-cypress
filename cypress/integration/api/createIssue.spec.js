@@ -21,5 +21,4 @@ describe('Create Issue', () => {
                 expect(response.body.description).to.equal(issue.description)
             })
     })
-
 })

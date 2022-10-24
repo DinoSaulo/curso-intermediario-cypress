@@ -24,5 +24,4 @@ describe('Create Issue', () => {
             .should('contain', issue.title)
             .and('contain', issue.description)
     })
-
 })

@@ -3,8 +3,6 @@
 const faker = require('faker')
 
 describe('Create Project', () => {
-
-
     it('Successfully', () => {
 
         const project = {

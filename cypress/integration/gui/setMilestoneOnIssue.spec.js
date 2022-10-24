@@ -30,7 +30,6 @@ describe('Set label on issue', () => {
         cy.gui_setMilestoneOnIssue(milestone)
 
         cy.get('.block.milestone', { timeout: 6000 }).should('contain', milestone.title)
-
     })
 
 })

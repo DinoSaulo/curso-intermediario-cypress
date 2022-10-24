@@ -2,7 +2,6 @@
 
 const faker = require('faker')
 
-
 describe('Set label on issue', () => {
 
     const issue = {
@@ -34,7 +33,6 @@ describe('Set label on issue', () => {
 
         cy.get('.qa-labels-block', { timeout: 6000 }).should('contain', label.name)
         cy.get('.qa-labels-block span', { timeout: 6000 }).should('have.attr', 'style', `background-color: ${label.color}; color: #333333;`)
-
     })
 
 })

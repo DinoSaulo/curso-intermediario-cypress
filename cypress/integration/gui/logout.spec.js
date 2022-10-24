@@ -1,7 +1,5 @@
 /// <reference types="Cypress" />
 
-/// <reference types="Cypress" />
-
 describe('Logout', () => {
 
     beforeEach(() => cy.login())
@@ -11,6 +9,5 @@ describe('Logout', () => {
         cy.logout()
 
         cy.url().should('be.equal', `${Cypress.config('baseUrl')}users/sign_in`)
-
     })
 })
